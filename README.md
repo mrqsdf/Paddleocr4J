@@ -1,6 +1,6 @@
 # Paddleocr4J
 
-Paddleocr4J is a synchronous Java client for the PaddleOCR HTTP API described by [`openapi.json`](openapi.json). It can check the service health, analyze images or PDFs, and restructure the pages returned by an analysis.
+Paddleocr4J is a synchronous Java client for the PaddleOCR HTTP API described by `openapi.json`. It can check the service health, analyze images or PDFs, and restructure the pages returned by an analysis.
 
 The library provides:
 
@@ -19,7 +19,7 @@ Full guides are available in the bilingual wiki:
 ## Requirements
 
 - JDK 21 recommended;
-- a PaddleOCR server compatible with [`openapi.json`](openapi.json);
+- a PaddleOCR server compatible with `openapi.json`;
 - the Gradle Wrapper included in this repository;
 - Gson 2.13.2, already declared in [`build.gradle`](build.gradle).
 
@@ -381,7 +381,7 @@ Paddleocr4J/
 
 When the server contract changes:
 
-1. update or compare [`openapi.json`](openapi.json);
+1. update or compare `openapi.json`;
 2. verify paths and HTTP methods;
 3. update DTOs and builders for structural changes;
 4. add stable enum values while keeping raw overloads;

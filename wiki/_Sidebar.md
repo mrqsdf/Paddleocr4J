@@ -1,0 +1,16 @@
+## Languages
+
+- [English](en/Home.md)
+  - [Getting started](en/Getting-Started.md)
+  - [Client and endpoints](en/Client-and-Endpoints.md)
+  - [Request builders](en/Request-Builders.md)
+  - [Responses and errors](en/Responses-and-Errors.md)
+  - [Thread safety](en/Thread-Safety.md)
+  - [Development](en/Development.md)
+- [Français](fr/Home.md)
+  - [Bien démarrer](fr/Getting-Started.md)
+  - [Client et endpoints](fr/Client-and-Endpoints.md)
+  - [Builders de requêtes](fr/Request-Builders.md)
+  - [Réponses et erreurs](fr/Responses-and-Errors.md)
+  - [Sûreté en concurrence](fr/Thread-Safety.md)
+  - [Développement](fr/Development.md)

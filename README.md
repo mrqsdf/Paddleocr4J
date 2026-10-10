@@ -13,8 +13,8 @@ The library provides:
 
 Full guides are available in the bilingual wiki:
 
-- [English documentation](wiki/en/Home.md)
-- [Documentation française](wiki/fr/Home.md)
+- [English documentation](wiki/English.md)
+- [Documentation française](wiki/Francais.md)
 
 ## Requirements
 
@@ -363,8 +363,8 @@ Paddleocr4J/
 ├── build.gradle
 ├── README.md
 ├── wiki/
-│   ├── en/
-│   └── fr/
+│   ├── EN-*.md
+│   └── FR-*.md
 └── src/
     ├── main/java/fr/mrqsdf/paddleocr/
     │   ├── PaddleOCRClient.java

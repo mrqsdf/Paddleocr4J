@@ -7,7 +7,7 @@ Paddleocr4J/
 ├── openapi.json
 ├── build.gradle
 ├── README.md
-├── wiki/en and wiki/fr
+├── wiki/EN-*.md and wiki/FR-*.md
 └── src/
     ├── main/java/fr/mrqsdf/paddleocr/
     │   ├── PaddleOCRClient.java
@@ -54,6 +54,6 @@ Raw overloads often allow a new enum value to work before a release. New fields 
 
 ## Publishing this wiki on GitHub
 
-The `wiki` directory is ready to be copied to the repository's separate GitHub Wiki repository. `Home.md` is the language selector and `_Sidebar.md` provides navigation. Keep the `en` and `fr` folders when the target wiki workflow supports nested files. If a publishing tool flattens page names, preserve language prefixes in the destination names to avoid collisions.
+The `wiki` directory is ready to be copied to the repository's separate GitHub Wiki repository. `Home.md` is the language selector, `_Sidebar.md` provides navigation, and the `EN-`/`FR-` filename prefixes prevent collisions between translated pages.
 
 [[Français|FR-Development]]

@@ -2,8 +2,8 @@
 
 Choose your language / Choisissez votre langue:
 
-- [[Français|fr]]
-- [[English|en]]
+- [[Français|Francais]]
+- [[English|English]]
 
 The two documentation sets cover installation, client configuration, every endpoint and request builder, response handling, errors, thread safety, testing, and project maintenance.
 

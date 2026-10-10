@@ -11,13 +11,13 @@ Il prend en charge le cycle complet :
 
 ## Sommaire
 
-- [Bien démarrer](Getting-Started.md) : prérequis, compilation, dépendance et premier appel.
-- [Client et endpoints](Client-and-Endpoints.md) : cycle de vie du client et trois opérations HTTP.
-- [Builders de requêtes](Request-Builders.md) : toutes les options, enums et valeurs brutes.
-- [Réponses et erreurs](Responses-and-Errors.md) : DTO de réponse, erreurs applicatives et exceptions.
-- [Sûreté en concurrence](Thread-Safety.md) : utilisation concurrente et propriété des builders.
-- [Développement](Development.md) : tests, Javadoc, structure et mises à jour OpenAPI.
+- [[Bien démarrer|FR-Getting-Started]] : prérequis, compilation, dépendance et premier appel.
+- [[Client et endpoints|FR-Client-and-Endpoints]] : cycle de vie du client et trois opérations HTTP.
+- [[Builders de requêtes|FR-Request-Builders]] : toutes les options, enums et valeurs brutes.
+- [[Réponses et erreurs|FR-Responses-and-Errors]] : DTO de réponse, erreurs applicatives et exceptions.
+- [[Sûreté en concurrence|FR-Thread-Safety]] : utilisation concurrente et propriété des builders.
+- [[Développement|FR-Development]] : tests, Javadoc, structure et mises à jour OpenAPI.
 
-Le [README](../../README.md) fournit une présentation compacte en anglais. Pour les signatures Java exactes, générez la Javadoc avec `./gradlew javadoc`.
+Le README du dépôt fournit une présentation compacte en anglais. Pour les signatures Java exactes, générez la Javadoc avec `./gradlew javadoc`.
 
-[English](../en/Home.md)
+[[English|English]]

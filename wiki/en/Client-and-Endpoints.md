@@ -80,6 +80,6 @@ var result = client.restructurePages(
 
 All network methods are synchronous and throw `PaddleOCRException` when transport, HTTP status validation, or JSON conversion fails.
 
-Next: [Request builders](Request-Builders.md).
+Next: [[Request builders|EN-Request-Builders]].
 
-[Français](../fr/Client-and-Endpoints.md)
+[[Français|FR-Client-and-Endpoints]]

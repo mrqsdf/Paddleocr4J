@@ -11,13 +11,13 @@ It supports the full workflow:
 
 ## Documentation map
 
-- [Getting started](Getting-Started.md): requirements, build, dependency setup, and first request.
-- [Client and endpoints](Client-and-Endpoints.md): client lifecycle and the three HTTP operations.
-- [Request builders](Request-Builders.md): every request option, typed enums, and raw values.
-- [Responses and errors](Responses-and-Errors.md): response DTOs, application errors, and exceptions.
-- [Thread safety](Thread-Safety.md): safe concurrent use and builder ownership.
-- [Development](Development.md): tests, Javadoc, structure, and OpenAPI updates.
+- [[Getting started|EN-Getting-Started]]: requirements, build, dependency setup, and first request.
+- [[Client and endpoints|EN-Client-and-Endpoints]]: client lifecycle and the three HTTP operations.
+- [[Request builders|EN-Request-Builders]]: every request option, typed enums, and raw values.
+- [[Responses and errors|EN-Responses-and-Errors]]: response DTOs, application errors, and exceptions.
+- [[Thread safety|EN-Thread-Safety]]: safe concurrent use and builder ownership.
+- [[Development|EN-Development]]: tests, Javadoc, structure, and OpenAPI updates.
 
-For a compact overview, see the repository [README](../../README.md). For exact Java signatures, generate the Javadoc with `./gradlew javadoc`.
+For a compact overview, see the repository README. For exact Java signatures, generate the Javadoc with `./gradlew javadoc`.
 
-[Français](../fr/Home.md)
+[[Français|Francais]]

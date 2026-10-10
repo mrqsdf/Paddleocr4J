@@ -46,4 +46,4 @@ The client uses blocking `HttpClient.send`. Interrupting a worker causes a `Padd
 3. Build a fresh request in each operation.
 4. Treat returned Gson `JsonObject` values as operation-owned mutable data, or copy them before sharing and mutation.
 
-[Français](../fr/Thread-Safety.md)
+[[Français|FR-Thread-Safety]]

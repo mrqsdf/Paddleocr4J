@@ -65,6 +65,6 @@ if (response.isSuccess()) {
 
 Les propriétés des builders sont nullables. Une option non configurée est omise par Gson, ce qui permet au serveur d'appliquer sa propre valeur par défaut. Configurez explicitement une option lorsque le comportement doit rester stable entre plusieurs configurations serveur.
 
-Suite : [Client et endpoints](Client-and-Endpoints.md).
+Suite : [[Client et endpoints|FR-Client-and-Endpoints]].
 
-[English](../en/Getting-Started.md)
+[[English|EN-Getting-Started]]

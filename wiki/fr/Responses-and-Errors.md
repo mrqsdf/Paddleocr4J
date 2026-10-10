@@ -70,4 +70,4 @@ La construction d'une requête peut lever `IllegalArgumentException` ou `NullPoi
 
 Un statut HTTP réussi peut contenir un `errorCode` applicatif. Vérifiez `isSuccess()` après le retour de la méthode. Un statut HTTP non-2xx ne renvoie jamais de DTO : il lève `PaddleOCRException` et conserve le corps brut.
 
-[English](../en/Responses-and-Errors.md)
+[[English|EN-Responses-and-Errors]]

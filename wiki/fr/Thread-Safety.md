@@ -46,4 +46,4 @@ Le client utilise l'appel bloquant `HttpClient.send`. L'interruption d'un worker
 3. Construisez une nouvelle requête pour chaque opération.
 4. Considérez les `JsonObject` retournés comme des données mutables propres à l'opération, ou copiez-les avant partage et modification.
 
-[English](../en/Thread-Safety.md)
+[[English|EN-Thread-Safety]]

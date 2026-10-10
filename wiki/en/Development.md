@@ -56,4 +56,4 @@ Raw overloads often allow a new enum value to work before a release. New fields 
 
 The `wiki` directory is ready to be copied to the repository's separate GitHub Wiki repository. `Home.md` is the language selector and `_Sidebar.md` provides navigation. Keep the `en` and `fr` folders when the target wiki workflow supports nested files. If a publishing tool flattens page names, preserve language prefixes in the destination names to avoid collisions.
 
-[Français](../fr/Development.md)
+[[Français|FR-Development]]

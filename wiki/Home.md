@@ -2,8 +2,8 @@
 
 Choose your language / Choisissez votre langue:
 
-- [English documentation](en/Home.md)
-- [Documentation française](fr/Home.md)
+- [[Français|fr]]
+- [[English|en]]
 
 The two documentation sets cover installation, client configuration, every endpoint and request builder, response handling, errors, thread safety, testing, and project maintenance.
 

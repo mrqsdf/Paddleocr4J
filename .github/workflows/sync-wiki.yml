@@ -32,6 +32,6 @@ jobs:
         with:
           path: wiki/
           strategy: clone
-          preprocess: true
+          preprocess: false
           disable-empty-commits: true
           commit-message: "docs: synchronisation automatique du Wiki"

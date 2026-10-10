@@ -56,4 +56,4 @@ Les surcharges brutes permettent souvent d'utiliser une nouvelle valeur d'enum a
 
 Le dossier `wiki` est prêt à être copié dans le dépôt Git séparé du Wiki GitHub. `Home.md` sert de sélecteur de langue et `_Sidebar.md` fournit la navigation. Conservez les dossiers `en` et `fr` lorsque votre méthode de publication accepte les fichiers imbriqués. Si un outil aplatit les noms de pages, conservez les préfixes de langue dans les noms de destination pour éviter les collisions.
 
-[English](../en/Development.md)
+[[English|EN-Development]]

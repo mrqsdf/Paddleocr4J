@@ -121,6 +121,6 @@ RestructurePagesRequest request = RestructurePagesRequest.builder()
 
 Pages can be added individually, as varargs, or as an `Iterable`. Output formats accept typed and raw values. Server defaults are `mergeTables=true`, `relevelTitles=true`, `concatenatePages=false`, `prettifyMarkdown=true`, `showFormulaNumber=false`, and `returnMarkdownImages=true`.
 
-Next: [Responses and errors](Responses-and-Errors.md).
+Next: [[Responses and errors|EN-Responses-and-Errors]].
 
-[Français](../fr/Request-Builders.md)
+[[Français|FR-Request-Builders]]

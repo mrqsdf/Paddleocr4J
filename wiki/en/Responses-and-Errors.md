@@ -70,4 +70,4 @@ Request construction can throw `IllegalArgumentException` or `NullPointerExcepti
 
 A successful HTTP status can still carry an application `errorCode`. Check `isSuccess()` after a successful method call. A non-2xx HTTP status never returns a response DTO; it throws `PaddleOCRException` and preserves the raw response body.
 
-[Français](../fr/Responses-and-Errors.md)
+[[Français|FR-Responses-and-Errors]]

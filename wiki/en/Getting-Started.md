@@ -65,6 +65,6 @@ if (response.isSuccess()) {
 
 Builder properties are nullable. An option that is not configured is omitted by Gson, so the server applies its own default. Set an option explicitly when client-side behavior must remain stable across server configurations.
 
-Next: [Client and endpoints](Client-and-Endpoints.md).
+Next: [[Client and endpoints|EN-Client-and-Endpoints]].
 
-[Français](../fr/Getting-Started.md)
+[[Français|FR-Getting-Started]]

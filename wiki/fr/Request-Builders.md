@@ -121,6 +121,6 @@ RestructurePagesRequest request = RestructurePagesRequest.builder()
 
 Les pages peuvent être ajoutées individuellement, en varargs ou avec un `Iterable`. Les formats acceptent des valeurs typées ou brutes. Les défauts serveur sont `mergeTables=true`, `relevelTitles=true`, `concatenatePages=false`, `prettifyMarkdown=true`, `showFormulaNumber=false` et `returnMarkdownImages=true`.
 
-Suite : [Réponses et erreurs](Responses-and-Errors.md).
+Suite : [[Réponses et erreurs|FR-Responses-and-Errors]].
 
-[English](../en/Request-Builders.md)
+[[English|EN-Request-Builders]]

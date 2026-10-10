@@ -1,16 +1,18 @@
+
 ## Languages
 
-- [English](en/Home.md)
-  - [Getting started](en/Getting-Started.md)
-  - [Client and endpoints](en/Client-and-Endpoints.md)
-  - [Request builders](en/Request-Builders.md)
-  - [Responses and errors](en/Responses-and-Errors.md)
-  - [Thread safety](en/Thread-Safety.md)
-  - [Development](en/Development.md)
-- [Français](fr/Home.md)
-  - [Bien démarrer](fr/Getting-Started.md)
-  - [Client et endpoints](fr/Client-and-Endpoints.md)
-  - [Builders de requêtes](fr/Request-Builders.md)
-  - [Réponses et erreurs](fr/Responses-and-Errors.md)
-  - [Sûreté en concurrence](fr/Thread-Safety.md)
-  - [Développement](fr/Development.md)
+- [[English|English]]
+  - [[Getting started|EN-Getting-Started]]
+  - [[Client and endpoints|EN-Client-and-Endpoints]]
+  - [[Request builders|EN-Request-Builders]]
+  - [[Responses and errors|EN-Responses-and-Errors]]
+  - [[Thread safety|EN-Thread-Safety]]
+  - [[Development|EN-Development]]
+
+- [[Français|Francais]]
+  - [[Bien démarrer|FR-Getting-Started]]
+  - [[Client et endpoints|FR-Client-and-Endpoints]]
+  - [[Builders de requêtes|FR-Request-Builders]]
+  - [[Réponses et erreurs|FR-Responses-and-Errors]]
+  - [[Sûreté en concurrence|FR-Thread-Safety]]
+  - [[Développement|FR-Development]]

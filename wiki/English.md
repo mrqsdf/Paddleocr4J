@@ -9,6 +9,14 @@ It supports the full workflow:
 3. read Markdown, images, structured data, and exports;
 4. optionally send analyzed pages to the restructuring endpoint.
 
+## Maven Central
+
+```groovy
+dependencies {
+    implementation 'fr.mrqsdf:PaddleOCR4J:1.0.0'
+}
+```
+
 ## Documentation map
 
 - [[Getting started|EN-Getting-Started]]: requirements, build, dependency setup, and first request.

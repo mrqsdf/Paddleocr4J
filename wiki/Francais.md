@@ -9,6 +9,14 @@ Il prend en charge le cycle complet :
 3. lire le Markdown, les images, les données structurées et les exports ;
 4. envoyer éventuellement les pages analysées à l'endpoint de restructuration.
 
+## Maven Central
+
+```groovy
+dependencies {
+    implementation 'fr.mrqsdf:PaddleOCR4J:1.0.0'
+}
+```
+
 ## Sommaire
 
 - [[Bien démarrer|FR-Getting-Started]] : prérequis, compilation, dépendance et premier appel.

@@ -37,15 +37,24 @@ Windows:
 .\gradlew.bat clean build
 ```
 
-The JAR is generated at `build/libs/Paddleocr4J-1.0-SNAPSHOT.jar`.
+The JAR is generated at `build/libs/Paddleocr4J-1.0.0.jar`.
 
-The project does not currently publish an artifact to a Maven repository. To use the JAR from another Gradle project, copy it into a `libs` directory:
+PaddleOCR4J is available from Maven Central.
 
 ```groovy
 dependencies {
-    implementation files('libs/Paddleocr4J-1.0-SNAPSHOT.jar')
-    implementation 'com.google.code.gson:gson:2.13.2'
+    implementation 'fr.mrqsdf:PaddleOCR4J:1.0.0'
 }
+```
+
+Maven:
+
+```xml
+<dependency>
+    <groupId>fr.mrqsdf</groupId>
+    <artifactId>PaddleOCR4J</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 
 For a Gradle multi-project build:

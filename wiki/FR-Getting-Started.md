@@ -20,17 +20,26 @@ Windows :
 .\gradlew.bat clean build
 ```
 
-Le JAR est produit dans `build/libs/Paddleocr4J-1.0-SNAPSHOT.jar`.
+Le JAR est produit dans `build/libs/Paddleocr4J-1.0.0.jar`.
 
 ## L'ajouter à un autre projet
 
-La bibliothèque n'est pas encore publiée sur Maven Central. Copiez le JAR dans le dossier `libs` du projet consommateur et déclarez le JAR ainsi que Gson :
+La bibliothèque est disponible sur Maven Central. Ajoutez-la à un projet Gradle avec :
 
 ```groovy
 dependencies {
-    implementation files('libs/Paddleocr4J-1.0-SNAPSHOT.jar')
-    implementation 'com.google.code.gson:gson:2.13.2'
+    implementation 'fr.mrqsdf:PaddleOCR4J:1.0.0'
 }
+```
+
+Pour Maven :
+
+```xml
+<dependency>
+    <groupId>fr.mrqsdf</groupId>
+    <artifactId>PaddleOCR4J</artifactId>
+    <version>1.0.0</version>
+</dependency>
 ```
 
 Dans un build Gradle multi-projet :

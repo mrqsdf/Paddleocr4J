@@ -1,9 +1,11 @@
 plugins {
     id 'java'
+    id 'maven-publish'
+    id 'signing'
 }
 
 group = 'fr.mrqsdf'
-version = '1.0-SNAPSHOT'
+version = '1.0.0'
 
 repositories {
     mavenCentral()
@@ -20,3 +22,87 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(25)
+    }
+    withJavadocJar()
+    withSourcesJar()
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.withType(Javadoc).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            from components.java
+
+            pom {
+                name = 'PaddleOCR4J'
+                description = 'A Java client for PaddleOCR, a powerful Optical Character Recognition (OCR) tool developed by PaddlePaddle.'
+                url = 'https://github.com/mrqsdf/Paddleocr4J'
+
+                developers {
+                    developer {
+                        id = 'Mr_qsdf'
+                        name = 'Mr_qsdf'
+                        email = 'maqw@free.fr'
+                    }
+                }
+                licenses {
+                    license {
+                        name = 'MIT License'
+                        url = 'https://opensource.org'
+                        distribution = 'repo'
+                    }
+                }
+
+                scm {
+                    connection = 'scm:git:git://github.com/mrqsdf/Paddleocr4J.git'
+                    developerConnection = 'scm:git:ssh://github.com:mrqsdf/Paddleocr4J.git'
+                    url = 'https://github.com/mrqsdf/Paddleocr4J'
+                }
+            }
+        }
+    }
+
+    repositories {
+        maven {
+            name = 'StagingDirectory'
+            url = layout.buildDirectory.dir('repos/staging')
+        }
+    }
+}
+
+signing {
+    sign publishing.publications.mavenJava
+}
+
+tasks.register('cleanStagingRepository', Delete) {
+    delete layout.buildDirectory.dir('repos/staging')
+}
+
+tasks.named('publishMavenJavaPublicationToStagingDirectoryRepository') {
+    dependsOn 'cleanStagingRepository'
+}
+
+tasks.register('generateCentralBundle', Zip) {
+    dependsOn 'publishMavenJavaPublicationToStagingDirectoryRepository'
+    from layout.buildDirectory.dir('repos/staging')
+    include '**/*'
+    archiveFileName = 'bundle.zip'
+    destinationDirectory = layout.buildDirectory.dir('libs')
+}
+
+

@@ -35,7 +35,7 @@ Outputs:
 
 - test report: `build/reports/tests/test/index.html`;
 - Javadoc: `build/docs/javadoc/index.html`;
-- JAR: `build/libs/Paddleocr4J-1.0-SNAPSHOT.jar`.
+- JAR: `build/libs/Paddleocr4J-1.0.0.jar`.
 
 Tests exercise all endpoints through a local HTTP server, generic response deserialization, raw and typed builder values, HTTP error details, and concurrent use of one client.
 
